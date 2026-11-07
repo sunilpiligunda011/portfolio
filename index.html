@@ -1,0 +1,1572 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sunil P</title>
+<meta name="description" content="Sunil P is the founder of BusBox Dravyn Private Limited, building a parcel mobility platform that matches parcels with travellers and transport operators already heading the same way. MCA in AI and machine learning, formerly a loss prevention analyst at Amazon. Based in Karnataka, India.">
+<meta name="author" content="Sunil P">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#0B1428">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Sunil P">
+<meta property="og:title" content="Sunil P · Founder, BusBox Dravyn">
+<meta property="og:description" content="Building BusBox, a parcel network that runs on journeys people are already making.">
+<meta property="og:locale" content="en_IN">
+<meta property="profile:first_name" content="Sunil">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sunil P · Founder, BusBox Dravyn">
+<meta name="twitter:description" content="Building BusBox, a parcel network that runs on journeys people are already making.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230B1428'/%3E%3Ccircle cx='32' cy='32' r='15' fill='none' stroke='%23F2EEE6' stroke-width='3'/%3E%3Crect x='26' y='26' width='12' height='12' fill='%23E4A646'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300..700&family=Manrope:wght@300..800&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Sunil P","jobTitle":"Founder","worksFor":{"@type":"Organization","name":"BusBox Dravyn Private Limited","address":{"@type":"PostalAddress","addressRegion":"Karnataka","addressCountry":"IN"}},"address":{"@type":"PostalAddress","addressRegion":"Karnataka","addressCountry":"IN"},"alumniOf":{"@type":"CollegeOrUniversity","name":"Mangalore Institute of Technology & Engineering (MITE)","address":{"@type":"PostalAddress","addressLocality":"Moodbidri","addressRegion":"Karnataka","addressCountry":"IN"}},"hasCredential":{"@type":"EducationalOccupationalCredential","credentialCategory":"degree","name":"Master of Computer Applications (MCA), specialisation in Artificial Intelligence and Machine Learning"},"knowsAbout":["Artificial intelligence","Machine learning","Computer vision","Data analytics","Loss prevention analytics","Logistics technology","Parcel delivery"],"email":"mailto:sunilpiligunda@gmail.com","telephone":"+91-8310545772","sameAs":["https://www.linkedin.com/in/sunil-piligunda"]}
+</script>
+<style>
+/* Layout: an editorial 12-column page. A sticky rail names each section, and one "corridor" motif
+   (a hairline route carrying a saffron parcel) ties the hero, BusBox and the journey together. */
+:root{
+  color-scheme:dark;
+  /* palette */
+  --night:#070E1E;        /* deepest band: contact, footer, menu */
+  --navy:#0B1428;         /* page */
+  --panel:#101C38;        /* raised band and surfaces */
+  --ink:#F2EEE6;          /* off-white type */
+  --mist:#A8B1C6;         /* secondary type */
+  --saffron:#E4A646;      /* restrained accent */
+  /* derived */
+  --dim:#7F8AA3;
+  --saffron-hi:#F0BC66;
+  --saffron-wash:rgba(228,166,70,.12);
+  --saffron-line:rgba(228,166,70,.55);
+  --line:rgba(178,196,235,.13);
+  --line-strong:rgba(178,196,235,.26);
+  --glass:rgba(11,20,40,.9);
+  /* type */
+  --font-display:"Manrope","Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
+  --font-body:"DM Sans","Helvetica Neue","Segoe UI",system-ui,-apple-system,sans-serif;
+  --fs-label:.75rem;
+  --fs-small:.9375rem;
+  --fs-body:1.0625rem;
+  --fs-lead:clamp(1.1875rem,1.05rem + .45vw,1.375rem);
+  --fs-h3:clamp(1.25rem,1.1rem + .6vw,1.625rem);
+  --fs-h2:clamp(2rem,1.35rem + 2.2vw,3.5rem);
+  --fs-statement:clamp(1.75rem,1.2rem + 2vw,3rem);
+  --fs-name:clamp(3.75rem,.9rem + 11.5vw,10.5rem);
+  /* space */
+  --gutter:clamp(20px,4.5vw,56px);
+  --max:1240px;
+  --section-pad:clamp(80px,9vw,136px);
+  --nav-h:68px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+html.menu-open{overflow:hidden}
+body{margin:0;background:var(--navy);color:var(--ink);font-family:var(--font-body);font-size:var(--fs-body);line-height:1.65;font-optical-sizing:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--navy)}
+img,svg{max-width:100%}
+img{display:block}
+a{color:inherit}
+p{margin:0}
+h1,h2,h3,h4{margin:0;font-family:var(--font-display);color:var(--ink);text-wrap:balance}
+ul,ol{margin:0;padding:0;list-style:none}
+dl,dd{margin:0}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+::selection{background:var(--saffron);color:var(--night)}
+:focus-visible{outline:2px solid var(--saffron);outline-offset:3px}
+.skip{position:absolute;left:12px;top:-120px;z-index:100;background:var(--saffron);color:var(--night);padding:10px 14px;font-weight:600;text-decoration:none}
+.skip:focus{top:calc(12px + env(safe-area-inset-top,0px))}
+
+/* ---------- layout ---------- */
+.wrap{width:100%;max-width:calc(var(--max) + 2 * var(--gutter));margin-inline:auto;padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px))}
+.section{position:relative;padding-block:var(--section-pad);scroll-margin-top:calc(var(--nav-h) + 32px - var(--section-pad))}
+.sec{display:grid;grid-template-columns:minmax(0,1fr);row-gap:clamp(28px,4vw,56px);column-gap:clamp(32px,4vw,64px)}
+.sec::before{content:"";grid-column:1/-1;height:1px;background:var(--line);transform-origin:left center}
+.rail{min-width:0}
+.rail-label{position:sticky;top:calc(var(--nav-h) + 40px + env(safe-area-inset-top,0px));display:flex;align-items:center;gap:12px;font:600 var(--fs-label)/1.2 var(--font-body);letter-spacing:.16em;text-transform:uppercase;color:var(--mist)}
+.node{flex:none;width:9px;height:9px;border-radius:50%;border:1.5px solid var(--saffron)}
+.sec-main{min-width:0;display:grid;gap:clamp(40px,5.5vw,72px)}
+@media (min-width:1000px){.sec{grid-template-columns:minmax(0,3fr) minmax(0,9fr)}}
+
+/* ---------- type ---------- */
+.label{font:600 var(--fs-label)/1.3 var(--font-body);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.h2{font-weight:600;font-size:var(--fs-h2);line-height:1.06;letter-spacing:-.035em;max-width:20ch}
+.h3{font-weight:600;font-size:var(--fs-h3);line-height:1.2;letter-spacing:-.022em}
+.statement{font-weight:500;font-size:var(--fs-statement);line-height:1.14;letter-spacing:-.03em;max-width:24ch}
+.lead{font-size:var(--fs-lead);line-height:1.55;color:var(--ink);max-width:58ch}
+.prose{display:grid;gap:1.1em;color:var(--mist);max-width:62ch;align-content:start}
+.sq{display:inline-block;width:.16em;height:.16em;margin-left:.08em;background:var(--saffron);vertical-align:baseline}
+
+/* ---------- controls ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:0 22px;font:600 .9375rem/1 var(--font-display);letter-spacing:-.005em;text-decoration:none;border:1px solid transparent;border-radius:2px;transition:background-color .25s var(--ease),color .25s var(--ease),border-color .25s var(--ease)}
+.btn svg{width:16px;height:16px;flex:none;transition:transform .3s var(--ease)}
+.btn:hover .arrow{transform:translateX(3px)}
+.btn--primary{background:var(--saffron);color:var(--night)}
+.btn--primary:hover{background:var(--saffron-hi)}
+.btn--ghost{background:transparent;color:var(--ink);border-color:var(--line-strong)}
+.btn--ghost:hover{border-color:var(--saffron);color:var(--saffron)}
+.btn--sm{min-height:40px;padding:0 16px;font-size:.875rem}
+.link{color:var(--ink);text-decoration:underline;text-decoration-color:var(--saffron-line);text-decoration-thickness:1px;text-underline-offset:5px;transition:color .2s,text-decoration-color .2s}
+.link:hover{color:var(--saffron);text-decoration-color:var(--saffron)}
+.btn.ext::after{margin-left:0}
+.ext::after{content:"";display:inline-block;width:.62em;height:.62em;margin-left:.35em;background:currentColor;-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 8 8 2M3.5 2H8v4.5' fill='none' stroke='black' stroke-width='1.4'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 8 8 2M3.5 2H8v4.5' fill='none' stroke='black' stroke-width='1.4'/%3E%3C/svg%3E") center/contain no-repeat}
+
+/* ---------- navigation ---------- */
+.nav{position:fixed;inset:0 0 auto;z-index:50;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid transparent;transition:background-color .35s var(--ease),border-color .35s var(--ease)}
+.nav.is-scrolled{background:var(--glass);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom-color:var(--line)}
+.menu-open .nav{background:var(--night);border-bottom-color:var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--nav-h)}
+.brand{display:inline-flex;align-items:baseline;font:700 1.125rem/1 var(--font-display);letter-spacing:-.03em;color:var(--ink);text-decoration:none;white-space:nowrap}
+.brand .sq{width:6px;height:6px;margin-left:3px}
+.nav-links{display:none;align-items:center;gap:30px}
+.nav-links a{position:relative;padding:8px 0;font-size:.9375rem;font-weight:500;color:var(--mist);text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a[aria-current]{color:var(--ink)}
+.nav-links a::after{content:"";position:absolute;left:50%;bottom:-2px;width:5px;height:5px;margin-left:-2.5px;background:var(--saffron);opacity:0;transform:translateY(3px);transition:opacity .25s,transform .25s var(--ease)}
+.nav-links a[aria-current]::after{opacity:1;transform:none}
+.nav-actions{display:flex;align-items:center;gap:14px}
+.nav-resume{display:none;align-items:center;gap:7px;font-size:.875rem;font-weight:500;color:var(--mist);text-decoration:none;padding:8px 4px;transition:color .2s}
+.nav-resume svg{width:14px;height:14px}
+.nav-resume:hover{color:var(--ink)}
+.menu-btn{position:relative;display:inline-grid;place-items:center;width:44px;height:44px;border:1px solid var(--line-strong)}
+.menu-btn span{position:absolute;left:12px;right:12px;top:50%;height:1.5px;margin-top:-.75px;background:var(--ink);transition:transform .3s var(--ease)}
+.menu-btn span:nth-child(1){transform:translateY(-4px)}
+.menu-btn span:nth-child(2){transform:translateY(4px)}
+.menu-btn[aria-expanded="true"] span:nth-child(1){transform:rotate(45deg)}
+.menu-btn[aria-expanded="true"] span:nth-child(2){transform:rotate(-45deg)}
+@media (min-width:640px){.nav-resume{display:inline-flex}}
+@media (min-width:1080px){.nav-links{display:flex}.menu-btn{display:none}}
+.nav-progress{position:absolute;left:0;right:0;bottom:-1px;height:1px;pointer-events:none;opacity:0;transition:opacity .35s}
+.nav.is-scrolled .nav-progress{opacity:1}
+.nav-progress span{display:block;height:100%;background:var(--saffron);transform-origin:0 50%;transform:scaleX(0)}
+@supports (animation-timeline:scroll()){.nav-progress span{animation:draw-x linear both;animation-timeline:scroll(root block)}}
+
+.menu{position:fixed;inset:0;z-index:45;display:flex;flex-direction:column;justify-content:space-between;gap:40px;overflow-y:auto;background:var(--night);padding-top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 36px);padding-bottom:calc(32px + env(safe-area-inset-bottom,0px));padding-left:max(var(--gutter),env(safe-area-inset-left,0px));padding-right:max(var(--gutter),env(safe-area-inset-right,0px));opacity:0;transition:opacity .3s var(--ease)}
+.menu.is-open{opacity:1}
+.menu-nav{display:grid;gap:2px;margin-left:5px;padding-left:26px;border-left:1px solid var(--line-strong)}
+.menu-nav a{position:relative;padding:6px 0;font:600 clamp(1.75rem,7vw,2.5rem)/1.25 var(--font-display);letter-spacing:-.03em;color:var(--ink);text-decoration:none}
+.menu-nav a::before{content:"";position:absolute;left:-31.5px;top:50%;width:10px;height:10px;margin-top:-5px;border-radius:50%;border:1.5px solid var(--mist);background:var(--night)}
+.menu-nav a[aria-current]::before{border-color:var(--saffron);background:var(--saffron)}
+.menu-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;padding-top:calc(var(--nav-h) + clamp(48px,7vw,104px));padding-bottom:clamp(40px,5vw,64px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:clamp(48px,6vw,96px);align-items:start}
+@media (min-width:960px){.hero-grid{grid-template-columns:minmax(0,7fr) minmax(0,4fr)}}
+.hero-copy{display:grid;gap:clamp(20px,2.4vw,30px);min-width:0}
+.eyebrow{display:flex;align-items:center;gap:12px;font:600 var(--fs-label)/1.4 var(--font-body);letter-spacing:.16em;text-transform:uppercase;color:var(--mist)}
+.eyebrow::before{content:"";flex:none;width:7px;height:7px;background:var(--saffron)}
+.hero-name{font-weight:600;font-size:var(--fs-name);line-height:.88;letter-spacing:-.055em;margin-left:-.045em;white-space:nowrap}
+.hero-name .sq{width:.14em;height:.14em;margin-left:.07em}
+.hero-thesis{font-family:var(--font-display);font-weight:500;font-size:clamp(1.5rem,1.05rem + 1.5vw,2.375rem);line-height:1.18;letter-spacing:-.028em;max-width:24ch;color:var(--ink);text-wrap:balance}
+.hero-thesis em{font-style:normal;color:var(--saffron)}
+.hero-sub{max-width:50ch;color:var(--mist);font-size:var(--fs-lead);line-height:1.55}
+.hero-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:14px 18px;padding-top:6px}
+.hero-ctas .link{font-size:var(--fs-small)}
+
+.portrait{margin:0;width:100%;max-width:400px;justify-self:end;display:grid;gap:18px}
+@media (max-width:959px){.portrait{justify-self:start;max-width:340px}}
+.portrait-frame{position:relative;aspect-ratio:4/5;max-width:100%;background:var(--panel)}
+.portrait-mono{position:absolute;inset:0;width:100%;height:100%;display:block}
+.portrait-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.portrait.no-photo .portrait-img{display:none}
+.pm-bg{fill:var(--panel)}
+.pm-grid{fill:none;stroke:var(--line);stroke-width:1}
+.pm-circle{fill:none;stroke:var(--line-strong);stroke-width:1}
+.pm-route{fill:none;stroke:var(--saffron-line);stroke-width:1.5}
+.pm-node{fill:var(--panel);stroke:var(--mist);stroke-width:1.5}
+.pm-carrier{fill:var(--panel);stroke:var(--ink);stroke-width:2}
+.pm-parcel{fill:var(--saffron)}
+.pm-mono{font-family:var(--font-display);font-weight:300;font-size:150px;letter-spacing:-8px;fill:var(--ink)}
+.crop{position:absolute;width:16px;height:16px;border:0 solid var(--saffron)}
+.c1{top:-10px;left:-10px;border-top-width:1px;border-left-width:1px}
+.c2{top:-10px;right:-10px;border-top-width:1px;border-right-width:1px}
+.c3{bottom:-10px;left:-10px;border-bottom-width:1px;border-left-width:1px}
+.c4{bottom:-10px;right:-10px;border-bottom-width:1px;border-right-width:1px}
+.portrait figcaption{display:flex;justify-content:space-between;gap:12px;font:600 var(--fs-label)/1.3 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+
+/* corridor: a parcel joins a journey already under way */
+.corridor{display:grid;gap:16px;padding-top:clamp(56px,7vw,96px)}
+.corridor-track{position:relative;height:20px;container-type:inline-size}
+.c-line{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--line-strong);transform-origin:left center}
+.c-stop{position:absolute;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--mist)}
+.c-stop--a{left:0}
+.c-stop--c{right:0}
+.c-traveller{position:absolute;left:0;top:50%;width:16px;height:16px;margin-top:-8px;border-radius:50%;border:1.5px solid var(--ink);background:var(--navy);transform:translateX(calc(70cqw - 8px))}
+.c-parcel{position:absolute;left:0;top:50%;width:7px;height:7px;margin-top:-3.5px;background:var(--saffron);transform:translateX(calc(70cqw - 3.5px))}
+.corridor-labels{position:relative;height:16px;font:600 .6875rem/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.corridor-labels span{position:absolute;top:0;white-space:nowrap}
+.corridor-labels .l-a{left:0}
+.corridor-labels .l-b{left:38%;transform:translateX(-50%);color:var(--saffron)}
+.corridor-labels .l-c{right:0}
+
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px;padding-top:clamp(36px,5vw,56px)}
+@media (min-width:900px){.facts{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.facts div{display:grid;gap:8px;align-content:start;min-width:0}
+.facts dt{font:600 var(--fs-label)/1.3 var(--font-body);letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.facts dd{font:500 1rem/1.4 var(--font-display);letter-spacing:-.01em;color:var(--ink)}
+
+@media (prefers-reduced-motion:no-preference){
+  .hero-name{animation:track-in 1.8s var(--ease) both}
+  .hero-name .sq{animation:drop .9s 1s cubic-bezier(.34,1.4,.5,1) both}
+  .crop{animation:crop-in 1s .35s var(--ease) both}
+  .c-line{animation:draw-x 1.4s .2s var(--ease) both}
+  .c-traveller{animation:travel 10s 1.4s linear infinite both}
+  .c-parcel{animation:ride 10s 1.4s linear infinite both}
+  .c-stop--c{animation:arrive 10s 1.4s linear infinite both}
+}
+@keyframes track-in{from{letter-spacing:-.01em}to{letter-spacing:-.055em}}
+@keyframes drop{from{transform:translateY(-.9em);opacity:0}to{transform:none;opacity:1}}
+@keyframes crop-in{from{opacity:0;transform:scale(.5)}to{opacity:1;transform:none}}
+@keyframes draw-x{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes draw-y{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes travel{0%{transform:translateX(0);opacity:0}4%{opacity:1}76%{transform:translateX(calc(100cqw - 16px));opacity:1}84%,100%{transform:translateX(calc(100cqw - 16px));opacity:0}}
+@keyframes ride{0%{transform:translateX(calc(38cqw - 3.5px));opacity:0}6%{opacity:1}28.7%{transform:translateX(calc(38cqw - 3.5px))}76%{transform:translateX(calc(100cqw - 11.5px));opacity:1}84%,100%{transform:translateX(calc(100cqw - 11.5px));opacity:0}}
+@keyframes arrive{0%,74%{background:var(--mist);box-shadow:0 0 0 0 transparent}77%{background:var(--saffron);box-shadow:0 0 0 6px var(--saffron-wash)}90%,100%{background:var(--mist);box-shadow:0 0 0 0 transparent}}
+
+/* ---------- introduction ---------- */
+.disciplines{display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line)}
+.discipline{display:grid;gap:12px;align-content:start;padding:28px 0;border-bottom:1px solid var(--line)}
+.discipline p{color:var(--mist);font-size:var(--fs-small)}
+.discipline h3{font-size:1.25rem;font-weight:600;letter-spacing:-.02em}
+.glyph{width:32px;height:32px;margin-bottom:6px}
+@media (min-width:760px){
+  .disciplines{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .discipline{padding:32px 28px 8px 0;border-bottom:0}
+  .discipline + .discipline{padding-left:28px;border-left:1px solid var(--line)}
+}
+.g-dot{fill:var(--mist)}
+.g-hot{fill:var(--saffron)}
+.g-stroke{fill:none;stroke:var(--mist);stroke-width:1.5}
+.g-ring{fill:none;stroke:var(--ink);stroke-width:1.5}
+
+/* ---------- philosophy ---------- */
+.principles{display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line)}
+.principle{display:grid;gap:14px;align-content:start;padding:clamp(28px,3.5vw,44px) 0;border-bottom:1px solid var(--line)}
+.principle::before{content:"";width:8px;height:8px;background:var(--saffron);margin-bottom:10px}
+.principle p{color:var(--mist);max-width:46ch}
+@media (min-width:760px){
+  .principles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .principle:nth-child(odd){padding-right:clamp(24px,3vw,48px);border-right:1px solid var(--line)}
+  .principle:nth-child(even){padding-left:clamp(24px,3vw,48px)}
+}
+
+/* ---------- BusBox ---------- */
+.section--venture{background:var(--panel)}
+.venture-head{display:grid;gap:18px}
+.venture-mark{font-weight:800;font-size:clamp(3.25rem,1.6rem + 6vw,7rem);line-height:.9;letter-spacing:-.055em;margin-left:-.04em}
+.venture-tag{font:500 clamp(1.25rem,1rem + .9vw,1.75rem)/1.2 var(--font-display);letter-spacing:-.02em;color:var(--mist)}
+.venture-intro{display:grid;gap:44px}
+@media (min-width:1100px){.venture-intro{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px}}
+.factsheet-wrap{display:grid;gap:14px;align-content:start}
+.factsheet{display:grid;border-top:1px solid var(--line-strong)}
+.factsheet div{display:grid;grid-template-columns:minmax(0,8.5rem) minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.factsheet dt{font:600 var(--fs-label)/1.6 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.factsheet dd{font-size:var(--fs-small);line-height:1.5;color:var(--ink)}
+
+.matcher{margin:0;display:grid;gap:22px;padding:clamp(18px,3vw,36px);border:1px solid var(--line-strong);background:var(--navy)}
+.matcher-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 16px}
+.matcher-title{font-size:var(--fs-h3);font-weight:600;letter-spacing:-.022em;line-height:1.2}
+.matcher-toggle{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:0 14px;border:1px solid var(--line-strong);font:600 .75rem/1 var(--font-body);letter-spacing:.12em;text-transform:uppercase;color:var(--mist);transition:color .2s,border-color .2s}
+.matcher-toggle:hover{color:var(--ink);border-color:var(--mist)}
+.matcher-body{display:grid;gap:22px}
+.steps{display:grid;gap:6px}
+@media (min-width:640px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:1100px){.steps{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.step{width:100%;height:100%;text-align:left;display:grid;grid-template-columns:auto minmax(0,1fr);align-content:start;gap:3px 14px;padding:13px 16px;border:1px solid transparent;transition:background-color .3s,border-color .3s}
+.step:hover{border-color:var(--line)}
+.step[aria-current="step"]{background:var(--panel);border-color:var(--line-strong)}
+.step-n{grid-row:span 2;font:600 .8125rem/1.65 var(--font-display);font-variant-numeric:tabular-nums;color:var(--dim)}
+.step[aria-current="step"] .step-n{color:var(--saffron)}
+.step-t{font:600 1rem/1.45 var(--font-display);color:var(--ink)}
+.step-d{font-size:.875rem;line-height:1.5;color:var(--mist)}
+.map-wrap{display:grid;gap:12px;min-width:0}
+.map-status{display:flex;align-items:center;gap:10px;min-height:1.6em;font:500 .9375rem/1.5 var(--font-display);color:var(--ink)}
+.map-status::before{content:"";flex:none;width:7px;height:7px;background:var(--saffron)}
+.map{display:block;width:100%;height:auto;overflow:visible}
+.map .route{fill:none;stroke:var(--line-strong);stroke-width:2;stroke-linecap:round;transition:stroke .7s var(--ease),stroke-width .7s var(--ease),opacity .7s var(--ease)}
+.map .r3{transition-delay:.2s}
+.map .r2{transition-delay:.4s}
+.s-matched .map .r-miss{stroke-dasharray:3 8;opacity:.65}
+.s-matched .map .r-hit{stroke:var(--saffron);stroke-width:3}
+.map .city{fill:var(--navy);stroke:var(--mist);stroke-width:1.5}
+.map .city--key{stroke:var(--ink)}
+.map .ring{fill:none;stroke:var(--saffron);stroke-width:1.5}
+.map .ring--drop{stroke-dasharray:3 4;transition:fill .5s}
+.s-delivered .map .ring--drop{fill:var(--saffron-wash);stroke-dasharray:none}
+.map text{font-family:var(--font-body);fill:var(--mist)}
+.map .t-city{font-size:19px;font-weight:500}
+.map .t-key{font-size:20px;font-weight:600;fill:var(--ink)}
+.map .t-role{font-size:12px;font-weight:700;letter-spacing:.14em;fill:var(--saffron)}
+.map .t-journey{font-size:15px;fill:var(--dim)}
+.map .t-verdict{font-size:14px;font-weight:600;opacity:0;transition:opacity .6s .6s}
+.map .v-miss{fill:var(--mist)}
+.map .v-hit{fill:var(--saffron)}
+.s-matched .map .t-verdict{opacity:1}
+.map .carrier{opacity:0;transition:opacity .4s,transform .7s var(--ease)}
+.map .carrier circle{fill:var(--navy);stroke:var(--ink);stroke-width:2}
+.s-handed .map .carrier{opacity:1}
+.map .parcel{transition:transform .7s var(--ease),opacity .3s}
+.map .parcel rect{fill:var(--saffron)}
+@media (max-width:640px){
+  .map .t-journey,.map .t-verdict{display:none}
+  .map .t-city{font-size:30px}
+  .map .t-key{font-size:31px}
+  .map .t-role{font-size:19px}
+  .map .t-low{transform:translateY(10px)}
+  .map .t-high{transform:translateY(-6px)}
+  .map .t-role.t-low{transform:translateY(24px)}
+  .map .t-role.t-high{transform:translateY(-24px)}
+}
+@media (prefers-reduced-motion:no-preference){
+  .matcher[data-step="1"] .ring--pickup{transform-box:fill-box;transform-origin:center;animation:pulse 1.6s var(--ease) infinite}
+}
+@keyframes pulse{from{transform:scale(.7);opacity:1}to{transform:scale(1.9);opacity:0}}
+.matcher-note{font-size:.8125rem;line-height:1.5;color:var(--dim)}
+
+.streams{display:grid;gap:26px}
+.stream-list{border-top:1px solid var(--line-strong)}
+.stream{display:grid;gap:12px 40px;padding:clamp(24px,3vw,34px) 0;border-bottom:1px solid var(--line)}
+@media (min-width:860px){.stream{grid-template-columns:minmax(0,4fr) minmax(0,7fr)}}
+.stream-k{display:grid;gap:8px;align-content:start}
+.stream-k .label{color:var(--saffron)}
+.stream-k h4{font-size:1.25rem;font-weight:600;line-height:1.25;letter-spacing:-.02em}
+.stream-v{display:grid;gap:18px;align-content:start;color:var(--mist);max-width:62ch;min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{display:inline-flex;align-items:center;padding:6px 11px;border:1px solid var(--line-strong);font:500 .8125rem/1.25 var(--font-body);color:var(--ink)}
+.chip--plan{border-style:dashed;color:var(--mist)}
+.price-chart{margin:0;display:grid;gap:8px;max-width:440px}
+.price-chart svg{display:block;width:100%;height:auto}
+.price-chart .axis{fill:none;stroke:var(--line-strong);stroke-width:1}
+.price-chart .curve{fill:none;stroke:var(--saffron);stroke-width:2;stroke-linecap:round}
+.price-chart .curve--alt{stroke:var(--ink)}
+.price-chart text{font-family:var(--font-body);font-size:12px;fill:var(--mist)}
+.price-chart .t-total{fill:var(--saffron);font-weight:600}
+.price-chart .t-rate{fill:var(--ink);font-weight:600}
+.price-chart figcaption{font-size:.8125rem;color:var(--dim)}
+
+.fit{display:grid;gap:26px}
+.fit-list{display:grid;border-top:1px solid var(--line-strong)}
+.fit-row{display:grid;gap:12px;padding:22px 0;border-bottom:1px solid var(--line);align-items:center}
+@media (min-width:860px){.fit-row{grid-template-columns:minmax(0,4fr) minmax(56px,1fr) minmax(0,6fr);gap:24px}}
+.fit-from{font:600 1.0625rem/1.35 var(--font-display);letter-spacing:-.01em;color:var(--ink)}
+.fit-arrow{position:relative;height:9px;width:100%}
+@media (max-width:859px){.fit-arrow{width:72px}}
+.fit-arrow::before{content:"";position:absolute;left:0;right:6px;top:4px;height:1px;background:var(--saffron-line)}
+.fit-arrow::after{content:"";position:absolute;right:0;top:0;width:9px;height:9px;background:var(--saffron)}
+.fit-to{color:var(--mist)}
+.venture-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 32px;padding:clamp(22px,3vw,32px);border:1px solid var(--line-strong)}
+.venture-cta p{font:500 var(--fs-lead)/1.45 var(--font-display);letter-spacing:-.015em;max-width:40ch}
+
+/* ---------- journey ---------- */
+.route{position:relative;display:grid;gap:40px}
+.stop{position:relative;display:grid;gap:6px;align-content:start;padding-left:38px;min-width:0}
+.stop-node{position:absolute;left:0;top:3px;width:12px;height:12px;border-radius:50%;border:1.5px solid var(--mist);background:var(--navy);z-index:1}
+.stop--done .stop-node{border-color:var(--saffron);background:var(--saffron)}
+.stop--now .stop-node{border-color:var(--saffron);box-shadow:0 0 0 6px var(--saffron-wash)}
+.stop--next .stop-node{border-style:dashed}
+.stop:not(:last-child)::after{content:"";position:absolute;left:5.5px;top:15px;bottom:-43px;width:1px;background:var(--saffron);transform-origin:center top}
+.stop--now::after{background:none!important;border-left:1px dashed var(--line-strong)}
+.stop-t{font-size:1.25rem;font-weight:600;line-height:1.25;letter-spacing:-.02em}
+.stop-org{font-weight:500;color:var(--ink);font-size:var(--fs-small)}
+.stop-d{color:var(--mist);font-size:var(--fs-small);max-width:40ch}
+.here{display:inline-flex;align-items:center;gap:8px;font:700 .6875rem/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--saffron);margin-bottom:4px}
+.here::before{content:"";width:6px;height:6px;background:var(--saffron)}
+@media (min-width:1000px){
+  .route{grid-template-columns:repeat(5,minmax(0,1fr));gap:24px;padding-top:30px}
+  .stop{padding-left:0;padding-top:34px}
+  .stop-node{top:0}
+  .stop:not(:last-child)::after{left:12px;right:-24px;top:5.5px;bottom:auto;width:auto;height:1px;transform-origin:left center}
+  .stop--now::after{border-left:0;border-top:1px dashed var(--line-strong)}
+  .here{position:absolute;top:-30px;left:0;margin:0}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stop--now .stop-node::after{content:"";position:absolute;inset:-7px;border-radius:50%;border:1px solid var(--saffron);animation:halo 2.4s var(--ease) infinite}
+}
+@keyframes halo{from{transform:scale(.6);opacity:.9}to{transform:scale(1.7);opacity:0}}
+
+/* ---------- projects ---------- */
+.projects{display:grid;border-top:1px solid var(--line)}
+.project{display:grid;gap:24px 48px;padding:clamp(32px,4vw,52px) 0;border-bottom:1px solid var(--line)}
+@media (min-width:860px){.project{grid-template-columns:minmax(0,4fr) minmax(0,6fr);align-items:center}}
+.project-art{position:relative;aspect-ratio:4/3;max-width:100%;background:var(--panel);border:1px solid var(--line)}
+.project-art svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.project-copy{display:grid;gap:14px;min-width:0;align-content:start}
+.project-title{font-size:clamp(1.5rem,1.2rem + 1vw,2.125rem);font-weight:600;line-height:1.1;letter-spacing:-.03em}
+.project-sub{font:500 var(--fs-small)/1.4 var(--font-display);color:var(--ink);margin-top:-4px}
+.project-copy .desc{color:var(--mist);max-width:56ch}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding-top:4px}
+.tags li{padding:5px 10px;border:1px solid var(--line-strong);font:500 .8125rem/1.25 var(--font-body);color:var(--ink)}
+.art .frame{fill:none;stroke:var(--line-strong);stroke-width:1}
+.art .bracket{fill:none;stroke:var(--mist);stroke-width:1.5}
+.art .persp{fill:none;stroke:var(--line);stroke-width:1}
+.art .rec{fill:var(--saffron)}
+.art .box{fill:none;stroke:var(--saffron);stroke-width:1.5}
+.art .tab{fill:var(--saffron)}
+.art .tab-t{font:700 9px var(--font-body);letter-spacing:.1em;fill:var(--night)}
+.art .mosaic rect{fill:var(--mist);transition:opacity .25s}
+.art .brain{fill:none;stroke:var(--line-strong);stroke-width:1.5}
+.art .contour{fill:none;stroke:var(--line);stroke-width:1}
+.art .midline{stroke:var(--line-strong);stroke-dasharray:3 5}
+.art .edema{fill:none;stroke:var(--saffron-line);stroke-width:1.2;stroke-dasharray:3 4}
+.art .mask{fill:var(--saffron-wash);stroke:var(--saffron);stroke-width:1.5}
+.art .leader{stroke:var(--saffron-line);stroke-width:1}
+.art .art-t{font:700 9px var(--font-body);letter-spacing:.14em;fill:var(--dim)}
+.art .art-t--hot{fill:var(--saffron)}
+.art .scan{stroke:var(--ink);stroke-opacity:.35;stroke-width:1}
+.art .bar{stroke:var(--mist);stroke-width:3;stroke-linecap:round;transform-box:fill-box;transform-origin:center}
+.art .bar.hot{stroke:var(--saffron)}
+.art .tline{fill:var(--line-strong)}
+.art .act{fill:none;stroke:var(--saffron);stroke-width:1.5}
+.art .act-sq{fill:var(--saffron)}
+.art .flow{fill:none;stroke:var(--mist);stroke-width:1.2}
+@media (prefers-reduced-motion:no-preference){
+  .project:hover .scan{animation:scan 2.4s var(--ease) infinite alternate}
+  .project:hover .bar{animation:eq .8s ease-in-out infinite alternate}
+}
+@keyframes scan{from{transform:translateY(-72px)}to{transform:translateY(72px)}}
+@keyframes eq{from{transform:scaleY(.3)}to{transform:scaleY(1)}}
+
+/* ---------- experience ---------- */
+.xp{display:grid;border-top:1px solid var(--line)}
+.xp-item{display:grid;gap:14px 40px;padding:clamp(28px,3.5vw,44px) 0;border-bottom:1px solid var(--line)}
+@media (min-width:860px){.xp-item{grid-template-columns:minmax(0,2fr) minmax(0,7fr)}}
+.pill{display:inline-flex;align-items:center;gap:9px;font:600 var(--fs-label)/1.4 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--saffron)}
+.pill::before{content:"";flex:none;width:7px;height:7px;background:currentColor}
+.pill--quiet{color:var(--dim)}
+.pill--quiet::before{background:transparent;border:1px solid currentColor}
+.xp-main{display:grid;gap:8px;min-width:0}
+.xp-role{font-size:var(--fs-h3);font-weight:600;line-height:1.2;letter-spacing:-.022em}
+.xp-org{font-weight:500;color:var(--ink)}
+.xp-points{display:grid;gap:9px;padding-top:8px;color:var(--mist);max-width:62ch}
+.xp-points li{position:relative;padding-left:22px}
+.xp-points li::before{content:"";position:absolute;left:0;top:.8em;width:10px;height:1px;background:var(--saffron)}
+
+/* ---------- education ---------- */
+.credential{display:grid;gap:32px;padding:clamp(24px,3.5vw,44px);border:1px solid var(--line-strong)}
+@media (min-width:860px){.credential{grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:48px}}
+.cred-main{display:grid;gap:16px;min-width:0}
+.cred-title{max-width:16ch}
+.cred-spec{font:500 var(--fs-lead)/1.4 var(--font-display);letter-spacing:-.01em;color:var(--saffron)}
+.cred-meta{display:grid;border-top:1px solid var(--line);margin-top:10px}
+.cred-meta div{display:grid;grid-template-columns:minmax(0,8.5rem) minmax(0,1fr);gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.cred-meta dt{font:600 var(--fs-label)/1.6 var(--font-body);letter-spacing:.14em;text-transform:uppercase;color:var(--dim)}
+.cred-meta dd{color:var(--ink);font-size:var(--fs-small);line-height:1.5}
+.emblem{width:clamp(88px,10vw,128px);height:auto}
+.em-o{fill:none;stroke:var(--line-strong);stroke-width:1}
+.em-i{fill:none;stroke:var(--line);stroke-width:1}
+.em-d{fill:none;stroke:var(--mist);stroke-width:1.2}
+.em-sq{fill:var(--saffron)}
+
+/* ---------- capabilities ---------- */
+.caps{display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line)}
+@media (min-width:640px){.caps{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px}}
+@media (min-width:1100px){.caps{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.cap{display:grid;gap:16px;align-content:start;padding:28px 0;border-bottom:1px solid var(--line)}
+.cap h3{font-size:1.0625rem;font-weight:600;letter-spacing:-.01em}
+.cap ul{display:grid;gap:9px;color:var(--mist);font-size:var(--fs-small);line-height:1.45}
+.cap li{display:flex;gap:11px;align-items:baseline}
+.cap li::before{content:"";flex:none;width:5px;height:5px;background:var(--line-strong);transform:translateY(-2px)}
+.cap-note{font-size:.8125rem;color:var(--dim)}
+
+/* ---------- vision ---------- */
+.vision-statement{font-weight:500;font-size:clamp(2rem,1.3rem + 2.6vw,3.75rem);line-height:1.08;letter-spacing:-.035em;max-width:21ch}
+.horizons{display:grid;gap:36px}
+@media (min-width:860px){.horizons{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}}
+.horizon{position:relative;display:grid;gap:10px;align-content:start;padding-top:30px;border-top:1px dashed var(--line-strong)}
+.horizon::before{content:"";position:absolute;top:-5.5px;left:0;width:10px;height:10px;border-radius:50%;border:1.5px solid var(--mist);background:var(--navy)}
+.horizon:first-child{border-top:1px solid var(--saffron)}
+.horizon:first-child::before{border-color:var(--saffron);background:var(--saffron)}
+.horizon h3{font-size:1.25rem;font-weight:600;letter-spacing:-.02em}
+.horizon p:last-child{color:var(--mist);font-size:var(--fs-small)}
+.vision-personal{display:flex;gap:16px;align-items:baseline;font:500 var(--fs-lead)/1.5 var(--font-display);letter-spacing:-.012em;color:var(--ink);max-width:54ch}
+.vision-personal::before{content:"";flex:none;width:8px;height:8px;background:var(--saffron);transform:translateY(-3px)}
+
+/* ---------- contact ---------- */
+.section--contact{background:var(--night)}
+.audiences{display:grid;gap:28px}
+@media (min-width:860px){.audiences{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}}
+.audience{display:grid;gap:10px;align-content:start;padding-top:22px;border-top:1px solid var(--line)}
+.audience h3{font-size:1.125rem;font-weight:600;letter-spacing:-.015em}
+.audience p{color:var(--mist);font-size:var(--fs-small)}
+.contact-card{display:grid;border:1px solid var(--line-strong);background:var(--navy)}
+.contact-row{display:grid;gap:12px 28px;align-items:center;padding:clamp(20px,2.6vw,28px);border-bottom:1px solid var(--line)}
+.contact-row:last-child{border-bottom:0}
+@media (min-width:760px){.contact-row{grid-template-columns:minmax(0,8rem) minmax(0,1fr) auto}}
+.contact-email,.contact-big{font:600 clamp(1.25rem,1rem + 1vw,1.75rem)/1.25 var(--font-display);letter-spacing:-.02em;color:var(--ink);overflow-wrap:anywhere}
+.contact-actions{display:flex;flex-wrap:wrap;gap:10px}
+.contact-actions svg{width:15px;height:15px}
+.contact-value{color:var(--ink);overflow-wrap:anywhere}
+.social{display:flex;flex-wrap:wrap;gap:10px 24px}
+
+/* ---------- footer ---------- */
+.footer{background:var(--night);border-top:1px solid var(--line);padding-block:36px}
+.footer-inner{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 32px;font-size:.875rem;color:var(--dim)}
+.footer-meta{display:flex;flex-wrap:wrap;gap:6px 24px}
+.footer-links{display:flex;flex-wrap:wrap;gap:8px 24px}
+
+/* ---------- toast ---------- */
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:70;max-width:calc(100% - 32px);padding:12px 18px;background:var(--ink);color:var(--night);font:600 .875rem/1.35 var(--font-body);opacity:0;transform:translate(-50%,16px);pointer-events:none;transition:opacity .3s,transform .3s var(--ease)}
+.toast.is-on{opacity:1;transform:translate(-50%,0)}
+
+/* ---------- scroll-linked motion (content stays readable without it) ---------- */
+@supports (animation-timeline:view()){
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{animation:rise var(--ease) both;animation-timeline:view();animation-range:entry 0% cover 24%}
+    .sec::before{animation:draw-x linear both;animation-timeline:view();animation-range:entry 0% cover 30%}
+    .stop--done::after{animation:draw-y linear both;animation-timeline:view();animation-range:entry 30% cover 50%}
+  }
+  @media (prefers-reduced-motion:no-preference) and (min-width:1000px){
+    .stop--done::after{animation-name:draw-x}
+  }
+}
+@keyframes rise{from{opacity:.25;transform:translateY(32px)}to{opacity:1;transform:none}}
+</style>
+<!-- Replace YOUR-DOMAIN with the address where this site is published. -->
+<link rel="canonical" href="https://YOUR-DOMAIN/">
+<meta property="og:url" content="https://YOUR-DOMAIN/">
+<meta property="og:image" content="https://YOUR-DOMAIN/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Sunil P, Founder of BusBox Dravyn Private Limited">
+<meta name="twitter:image" content="https://YOUR-DOMAIN/og-image.png">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top" aria-label="Sunil P, back to top">Sunil P<span class="sq" aria-hidden="true"></span></a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#about" data-nav="about">About</a>
+      <a href="#busbox" data-nav="busbox">BusBox</a>
+      <a href="#journey" data-nav="journey">Journey</a>
+      <a href="#work" data-nav="work">Work</a>
+      <a href="#experience" data-nav="experience">Experience</a>
+      <a href="#vision" data-nav="vision">Vision</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-resume" href="Sunil-P-Resume.pdf" download data-resume>Résumé<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.5 6.5M8 10l3.5-3.5M3 13.5h10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      <a class="btn btn--primary btn--sm" href="#contact">Let's talk</a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-progress" aria-hidden="true"><span></span></div>
+</header>
+
+<div class="menu" id="menu" hidden>
+  <nav class="menu-nav" aria-label="Menu">
+    <a href="#about" data-nav="about">About</a>
+    <a href="#busbox" data-nav="busbox">BusBox</a>
+    <a href="#journey" data-nav="journey">Journey</a>
+    <a href="#work" data-nav="work">Work</a>
+    <a href="#experience" data-nav="experience">Experience</a>
+    <a href="#vision" data-nav="vision">Vision</a>
+    <a href="#contact" data-nav="contact">Contact</a>
+  </nav>
+  <div class="menu-foot">
+    <a class="btn btn--ghost" href="Sunil-P-Resume.pdf" download data-resume>Download résumé</a>
+    <a class="link ext" href="https://www.linkedin.com/in/sunil-piligunda" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero" id="top" data-nav-group="" aria-label="Sunil P, founder of BusBox">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Founder, BusBox Dravyn Private Limited</p>
+      <h1 class="hero-name">Sunil P<span class="sq" aria-hidden="true"></span></h1>
+      <p class="hero-thesis">I'm building <em>BusBox</em>, a parcel network that runs on journeys people are already making.</p>
+      <p class="hero-sub">Senders hand parcels to travellers and transport operators already heading their way. I lead the product, the network and the company behind it.</p>
+      <div class="hero-ctas">
+        <a class="btn btn--primary" href="#busbox">See what I'm building<svg class="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11m0 0L9 4m4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        <a class="btn btn--ghost" href="#contact">Start a conversation</a>
+        <a class="link" href="Sunil-P-Resume.pdf" download data-resume>Download résumé (PDF)</a>
+        <a class="link ext" href="https://www.linkedin.com/in/sunil-piligunda" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+
+    <figure class="portrait" id="portrait">
+      <div class="portrait-frame">
+        <svg class="portrait-mono" viewBox="0 0 400 500" aria-hidden="true" focusable="false">
+          <defs><pattern id="pm-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path class="pm-grid" d="M40 0H0V40"/></pattern></defs>
+          <rect class="pm-bg" width="400" height="500"/>
+          <rect width="400" height="500" fill="url(#pm-grid)"/>
+          <circle class="pm-circle" cx="200" cy="232" r="148"/>
+          <path class="pm-route" d="M-10 404 120 338 250 362 410 282"/>
+          <circle class="pm-node" cx="120" cy="338" r="5"/>
+          <circle class="pm-carrier" cx="250" cy="362" r="11"/>
+          <rect class="pm-parcel" x="245" y="357" width="10" height="10"/>
+          <text class="pm-mono" x="200" y="284" text-anchor="middle">SP</text>
+        </svg>
+        <img class="portrait-img" src="portrait.jpg" alt="Portrait of Sunil P" width="800" height="1000" decoding="async" fetchpriority="high">
+        <i class="crop c1" aria-hidden="true"></i><i class="crop c2" aria-hidden="true"></i><i class="crop c3" aria-hidden="true"></i><i class="crop c4" aria-hidden="true"></i>
+      </div>
+      <figcaption><span>Sunil P</span><span>Founder</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap">
+    <div class="corridor">
+      <p class="label">How a BusBox parcel travels</p>
+      <div class="corridor-track" role="img" aria-label="A traveller sets off, a parcel joins the journey on the way and rides along to its destination.">
+        <span class="c-line"></span>
+        <span class="c-stop c-stop--a"></span>
+        <span class="c-stop c-stop--c"></span>
+        <span class="c-traveller"></span>
+        <span class="c-parcel"></span>
+      </div>
+      <div class="corridor-labels" aria-hidden="true"><span class="l-a">Departs</span><span class="l-b">Parcel joins</span><span class="l-c">Delivered</span></div>
+    </div>
+
+    <dl class="facts">
+      <div><dt>Based in</dt><dd>Karnataka, India</dd></div>
+      <div><dt>Building</dt><dd>BusBox Dravyn Private Limited</dd></div>
+      <div><dt>Trained in</dt><dd>MCA, Artificial Intelligence &amp; Machine Learning</dd></div>
+      <div><dt>Previously</dt><dd>Analyst, Loss Prevention, Amazon</dd></div>
+    </dl>
+  </div>
+</section>
+
+<!-- ======================= INTRODUCTION ======================= -->
+<section class="section" id="about" data-nav-group="about" aria-labelledby="about-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Introduction</p></div>
+    <div class="sec-main">
+      <h2 class="statement reveal" id="about-title">I trained in machine learning, analysed operations at Amazon, and now I'm building a parcel network for India.</h2>
+      <p class="lead reveal">BusBox is where those threads meet. It connects people who need to send a parcel with travellers and transport operators already heading the same way. Making that work takes rigorous technology and dependable operations in equal measure.</p>
+      <div class="disciplines reveal">
+        <article class="discipline">
+          <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true"><circle class="g-dot" cx="6" cy="6" r="2"/><circle class="g-dot" cx="16" cy="6" r="2"/><circle class="g-dot" cx="26" cy="6" r="2"/><circle class="g-dot" cx="6" cy="16" r="2"/><circle class="g-hot" cx="16" cy="16" r="2.6"/><circle class="g-dot" cx="26" cy="16" r="2"/><circle class="g-dot" cx="6" cy="26" r="2"/><circle class="g-dot" cx="16" cy="26" r="2"/><circle class="g-dot" cx="26" cy="26" r="2"/></svg>
+          <h3>Machine learning</h3>
+          <p>An MCA specialisation in artificial intelligence and machine learning at MITE, Moodbidri, applied to computer vision, medical imaging and voice.</p>
+        </article>
+        <article class="discipline">
+          <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true"><path class="g-stroke" d="M3 26 11 15l6 6 11-15"/><rect class="g-hot" x="24.5" y="2.5" width="7" height="7"/></svg>
+          <h3>Operations analytics</h3>
+          <p>Loss prevention data analytics at Amazon, finding patterns of loss and anomalies inside large operations.</p>
+        </article>
+        <article class="discipline">
+          <svg class="glyph" viewBox="0 0 32 32" aria-hidden="true"><circle class="g-ring" cx="16" cy="16" r="11"/><rect class="g-hot" x="12" y="12" width="8" height="8"/></svg>
+          <h3>Company building</h3>
+          <p>Founder of BusBox Dravyn Private Limited, responsible for product, technology, operations and strategy.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PHILOSOPHY ======================= -->
+<section class="section" id="philosophy" data-nav-group="about" aria-labelledby="philosophy-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Philosophy</p></div>
+    <div class="sec-main">
+      <h2 class="h2 reveal" id="philosophy-title">How I build</h2>
+      <div class="principles reveal">
+        <article class="principle">
+          <h3 class="h3">Use what is already moving.</h3>
+          <p>Before adding vehicles or warehouses, look for capacity that is already in motion. BusBox starts from journeys that happen anyway.</p>
+        </article>
+        <article class="principle">
+          <h3 class="h3">Let the data argue first.</h3>
+          <p>Loss prevention work taught me that patterns are more honest than opinions. I form a view, then look for the evidence that could break it.</p>
+        </article>
+        <article class="principle">
+          <h3 class="h3">Earn trust at every handover.</h3>
+          <p>When parcels pass between people, reliability is the product. Verification, transparency and clear accountability are designed in from the start.</p>
+        </article>
+        <article class="principle">
+          <h3 class="h3">Build the real thing.</h3>
+          <p>I chose to build BusBox as working software from day one instead of a clickable prototype. Real constraints show up early, and so do real answers.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= BUSBOX ======================= -->
+<section class="section section--venture" id="busbox" data-nav-group="busbox" aria-labelledby="busbox-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Flagship venture</p></div>
+    <div class="sec-main">
+      <header class="venture-head reveal">
+        <p class="label">BusBox Dravyn Private Limited</p>
+        <h2 class="venture-mark" id="busbox-title">BusBox<span class="sq" aria-hidden="true"></span></h2>
+        <p class="venture-tag">Closer than you think.</p>
+      </header>
+
+      <div class="venture-intro reveal">
+        <div class="prose">
+          <p class="lead">Every day, buses and travellers cross India with room to spare. BusBox turns that room into a parcel network.</p>
+          <p>BusBox is a technology-driven parcel mobility platform. A sender hands a parcel to a traveller or transport operator who is already going their way, and it rides along to its destination. The network grows with the journeys people already make, without a fleet of its own.</p>
+          <p>Coverage is designed to be anywhere to anywhere across India. If a journey connects a pickup point and a drop point, BusBox can put it to work.</p>
+        </div>
+        <div class="factsheet-wrap">
+          <p class="label">At a glance</p>
+          <dl class="factsheet">
+            <div><dt>Company</dt><dd>BusBox Dravyn Private Limited</dd></div>
+            <div><dt>Founder</dt><dd>Sunil P</dd></div>
+            <div><dt>Category</dt><dd>Parcel mobility, logistics technology</dd></div>
+            <div><dt>Model</dt><dd>Senders matched with travellers and transport operators on compatible routes</dd></div>
+            <div><dt>Pricing</dt><dd>By parcel size and distance, tapered for long routes</dd></div>
+            <div><dt>Stage</dt><dd>Pre-launch, product in final build</dd></div>
+            <div><dt>Coverage</dt><dd>Anywhere to anywhere across India</dd></div>
+            <div><dt>Based in</dt><dd>Karnataka, India</dd></div>
+          </dl>
+        </div>
+      </div>
+
+      <figure class="matcher s-matched reveal" id="matcher" data-step="2" aria-labelledby="matcher-title">
+        <div class="matcher-head">
+          <h3 class="matcher-title" id="matcher-title">How BusBox is designed to work</h3>
+          <button class="matcher-toggle" id="matcher-toggle" type="button" hidden>Pause</button>
+        </div>
+        <div class="matcher-body">
+          <ol class="steps">
+            <li><button class="step" type="button" data-go="1"><span class="step-n">01</span><span class="step-t">List</span><span class="step-d">A sender posts a parcel with pickup, drop-off, size and timing.</span></button></li>
+            <li><button class="step" type="button" data-go="2" aria-current="step"><span class="step-n">02</span><span class="step-t">Match</span><span class="step-d">BusBox finds journeys that pass both points, in the right order and time.</span></button></li>
+            <li><button class="step" type="button" data-go="3"><span class="step-n">03</span><span class="step-t">Hand over</span><span class="step-d">The sender hands the parcel to the matched traveller or operator.</span></button></li>
+            <li><button class="step" type="button" data-go="4"><span class="step-n">04</span><span class="step-t">Deliver</span><span class="step-d">The recipient confirms with an OTP. The carrier earns from a trip they were already making.</span></button></li>
+          </ol>
+          <div class="map-wrap">
+            <p class="map-status" id="map-status" aria-live="polite">Three journeys checked. One compatible match.</p>
+            <svg class="map" viewBox="0 0 760 350" role="img" aria-labelledby="map-t map-d">
+              <title id="map-t">Illustrative route match</title>
+              <desc id="map-d">A parcel is listed from a pickup point to a drop point. A traveller heading the other way is ruled out. A traveller starting elsewhere is ruled out because the route misses the pickup point. A bus operator whose journey passes the pickup point and then the drop point is the compatible match.</desc>
+              <path class="route r-miss r1" d="M121 166C116 136 106 104 99 74"/>
+              <path class="route r-miss r3" d="M478 299C548 262 612 206 669 154"/>
+              <path class="route r-hit r2" id="route-hit" d="M121 166C190 144 300 134 369 146S560 172 669 154"/>
+              <circle class="ring ring--pickup" cx="121" cy="166" r="13"/>
+              <circle class="ring ring--drop" cx="669" cy="154" r="13"/>
+              <circle class="city" cx="99" cy="74" r="5"/>
+              <circle class="city" cx="369" cy="146" r="5"/>
+              <circle class="city" cx="478" cy="299" r="5"/>
+              <circle class="city city--key" cx="121" cy="166" r="5"/>
+              <circle class="city city--key" cx="669" cy="154" r="5"/>
+              <text class="t-city t-key t-low" x="121" y="202" text-anchor="middle">Pickup point</text>
+              <text class="t-role t-low" x="121" y="222" text-anchor="middle">SENDER</text>
+              <text class="t-role t-high" x="669" y="108" text-anchor="middle">RECIPIENT</text>
+              <text class="t-city t-key t-high" x="669" y="131" text-anchor="middle">Drop point</text>
+              <text class="t-journey" x="118" y="56">Traveller, heading the other way</text>
+              <text class="t-verdict v-miss" x="118" y="76">× Wrong direction</text>
+              <text class="t-verdict v-hit" x="470" y="98" text-anchor="middle">Compatible match</text>
+              <text class="t-journey" x="470" y="118" text-anchor="middle">Bus operator, passing both points</text>
+              <text class="t-journey" x="540" y="286">Traveller from elsewhere</text>
+              <text class="t-verdict v-miss" x="540" y="306">× Misses the pickup point</text>
+              <g class="carrier" transform="translate(121 166)"><circle r="11"/></g>
+              <g class="parcel" transform="translate(141 146)"><rect x="-5.5" y="-5.5" width="11" height="11"/></g>
+            </svg>
+          </div>
+        </div>
+        <figcaption class="matcher-note">Illustrative example. Matching, live tracking and OTP confirmation are being built for launch.</figcaption>
+      </figure>
+
+      <div class="streams reveal">
+        <h3 class="h3">What I'm working on</h3>
+        <div class="stream-list">
+          <article class="stream">
+            <div class="stream-k"><p class="label">Product vision</p><h4>A parcel layer on top of India's travel</h4></div>
+            <div class="stream-v"><p>BusBox treats journeys people already plan as delivery capacity. The goal is anywhere-to-anywhere delivery across India, without building a fleet.</p></div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Business strategy</p><h4>Two sides, one network</h4></div>
+            <div class="stream-v">
+              <p>Senders get affordable, flexible delivery. Travellers and transport operators earn from space they are already carrying. Prices follow parcel size and distance on a taper, so the total rises with distance while the rate per kilometre falls, because the trip happens anyway. Long routes are where BusBox is strongest.</p>
+              <figure class="price-chart">
+                <svg viewBox="0 0 440 150" role="img" aria-label="Illustrative pricing shape. Total price rises with distance and flattens. Price per kilometre falls as distance grows.">
+                  <path class="axis" d="M30 12V108H196M192 104l4 4-4 4M26 16l4-4 4 4"/>
+                  <path class="axis" d="M250 12V108H416M412 104l4 4-4 4M246 16l4-4 4 4"/>
+                  <path class="curve" id="curve-total" d="M30 108"/>
+                  <path class="curve curve--alt" id="curve-rate" d="M250 108"/>
+                  <text class="t-total" x="30" y="132">Total price</text>
+                  <text x="196" y="132" text-anchor="end">Distance</text>
+                  <text class="t-rate" x="250" y="132">Price per km</text>
+                  <text x="416" y="132" text-anchor="end">Distance</text>
+                </svg>
+                <figcaption>Shape only, not a price list.</figcaption>
+              </figure>
+            </div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Technology development</p><h4>Real software from day one</h4></div>
+            <div class="stream-v">
+              <p>One Flutter app runs sender, traveller and admin modes. A NestJS and TypeORM backend on Neon Postgres sits behind it, with a React admin console for operations and Mapbox for routes.</p>
+              <ul class="chips" aria-label="Platform stack">
+                <li class="chip">Flutter</li><li class="chip">NestJS</li><li class="chip">TypeORM</li><li class="chip">Neon Postgres</li><li class="chip">Vercel</li><li class="chip">React + Vite</li><li class="chip">Mapbox</li><li class="chip chip--plan">Razorpay, integrating</li><li class="chip chip--plan">SMS OTP, planned</li>
+              </ul>
+            </div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Operational planning</p><h4>One operating model for every route</h4></div>
+            <div class="stream-v"><p>The operating plan covers who can carry, how parcels change hands, how delivery is confirmed and what happens when a journey changes. It is designed to work the same way between any pickup point and drop point.</p></div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Customer experience</p><h4>Clear at every handover</h4></div>
+            <div class="stream-v">
+              <p>Each person sees what they need: the price, who has the parcel and when it will arrive. Live tracking and OTP confirmation for recipients are being built for launch.</p>
+              <ul class="chips" aria-label="Who the app serves">
+                <li class="chip">Sender mode</li><li class="chip">Traveller mode</li><li class="chip">Admin mode</li><li class="chip chip--plan">Recipient OTP, in build</li>
+              </ul>
+            </div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Route matching</p><h4>The engine at the centre</h4></div>
+            <div class="stream-v">
+              <p>A journey qualifies when it passes the pickup and the drop-off, in that order, within the sender's time window. Matching on journeys that already exist is what keeps delivery affordable.</p>
+              <ul class="chips" aria-label="Matching rules">
+                <li class="chip">Passes the pickup</li><li class="chip">Passes the drop-off</li><li class="chip">Right order</li><li class="chip">Within the time window</li>
+              </ul>
+            </div>
+          </article>
+          <article class="stream">
+            <div class="stream-k"><p class="label">Logistics innovation</p><h4>Capacity that already moves</h4></div>
+            <div class="stream-v"><p>Most delivery networks grow by adding vehicles. BusBox grows by adding parcels to journeys already on the road.</p></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="fit reveal">
+        <h3 class="h3">Why I'm building this</h3>
+        <ul class="fit-list">
+          <li class="fit-row"><p class="fit-from">Loss prevention analytics at Amazon</p><span class="fit-arrow" aria-hidden="true"></span><p class="fit-to">Trust, verification and exception handling for a network where parcels change hands.</p></li>
+          <li class="fit-row"><p class="fit-from">AI and machine learning</p><span class="fit-arrow" aria-hidden="true"></span><p class="fit-to">Route matching now, with demand and pricing intelligence as the network grows.</p></li>
+          <li class="fit-row"><p class="fit-from">Hands-on engineering</p><span class="fit-arrow" aria-hidden="true"></span><p class="fit-to">Building the product directly, from the mobile app to the matching service.</p></li>
+        </ul>
+      </div>
+
+      <div class="venture-cta reveal">
+        <p>I'm glad to walk through the product, the plan and the launch in detail.</p>
+        <a class="btn btn--primary" href="#contact">Talk to me about BusBox<svg class="arrow" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 8h11m0 0L9 4m4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= JOURNEY ======================= -->
+<section class="section" id="journey" data-nav-group="journey" aria-labelledby="journey-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Journey</p></div>
+    <div class="sec-main">
+      <h2 class="h2 reveal" id="journey-title">The route so far</h2>
+      <ol class="route reveal">
+        <li class="stop stop--done">
+          <span class="stop-node" aria-hidden="true"></span>
+          <p class="label">Foundation</p>
+          <h3 class="stop-t">MCA, AI &amp; ML</h3>
+          <p class="stop-org">MITE, Moodbidri</p>
+          <p class="stop-d">Built systems that see, segment and listen.</p>
+        </li>
+        <li class="stop stop--done">
+          <span class="stop-node" aria-hidden="true"></span>
+          <p class="label">Operations</p>
+          <h3 class="stop-t">Analyst, Loss Prevention</h3>
+          <p class="stop-org">Amazon</p>
+          <p class="stop-d">Learned how large operations lose value, and how data shows where.</p>
+        </li>
+        <li class="stop stop--done">
+          <span class="stop-node" aria-hidden="true"></span>
+          <p class="label">Venture</p>
+          <h3 class="stop-t">Founder</h3>
+          <p class="stop-org">BusBox Dravyn Private Limited</p>
+          <p class="stop-d">Set out to build a parcel network on journeys people already make.</p>
+        </li>
+        <li class="stop stop--now" aria-current="step">
+          <span class="stop-node" aria-hidden="true"></span>
+          <p class="here">You are here</p>
+          <p class="label">Now</p>
+          <h3 class="stop-t">Pre-launch</h3>
+          <p class="stop-org">Product in final build</p>
+          <p class="stop-d">Opening conversations with investors and partners.</p>
+        </li>
+        <li class="stop stop--next">
+          <span class="stop-node" aria-hidden="true"></span>
+          <p class="label">Next</p>
+          <h3 class="stop-t">Launch and scale</h3>
+          <p class="stop-org">Across India</p>
+          <p class="stop-d">Open the network to senders and travellers, then grow it across the country.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= PROJECTS ======================= -->
+<section class="section" id="work" data-nav-group="work" aria-labelledby="work-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Selected work</p></div>
+    <div class="sec-main">
+      <h2 class="h2 reveal" id="work-title">Systems that see, segment and listen</h2>
+      <div class="projects">
+        <article class="project reveal">
+          <div class="project-art">
+            <svg class="art" viewBox="0 0 320 240" aria-hidden="true" focusable="false">
+              <rect class="frame" x="16" y="16" width="288" height="208"/>
+              <path class="persp" d="M16 224 118 132M304 224 202 132M118 132H202M118 132V56M202 132V56"/>
+              <path class="bracket" d="M16 40V16H40M280 16H304V40M304 200V224H280M40 224H16V200"/>
+              <circle class="rec" cx="36" cy="36" r="4"/>
+              <g class="mosaic" data-mosaic="62,104,52,96,4,7"></g>
+              <rect class="box" x="60" y="102" width="56" height="100"/>
+              <rect class="tab" x="60" y="88" width="52" height="14"/>
+              <text class="tab-t" x="65" y="98.5">PERSON</text>
+              <g class="mosaic" data-mosaic="216,112,36,64,3,5"></g>
+              <rect class="box" x="214" y="110" width="40" height="68"/>
+              <rect class="tab" x="214" y="96" width="52" height="14"/>
+              <text class="tab-t" x="219" y="106.5">PERSON</text>
+            </svg>
+          </div>
+          <div class="project-copy">
+            <p class="label">Computer vision · Privacy</p>
+            <h3 class="project-title">YOLOv8 CCTV Anonymisation</h3>
+            <p class="desc">A pipeline that detects people in CCTV footage with YOLOv8 and masks them automatically, so video can be reviewed or shared without exposing identities.</p>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>YOLOv8</li><li>OpenCV</li><li>Object detection</li><li>Video processing</li></ul>
+          </div>
+        </article>
+        <article class="project reveal">
+          <div class="project-art">
+            <svg class="art" viewBox="0 0 320 240" aria-hidden="true" focusable="false">
+              <ellipse class="brain" cx="160" cy="122" rx="104" ry="88"/>
+              <ellipse class="contour" cx="160" cy="122" rx="82" ry="68"/>
+              <ellipse class="contour" cx="160" cy="122" rx="56" ry="46"/>
+              <line class="midline" x1="160" y1="30" x2="160" y2="214"/>
+              <path class="edema" d="M176 72C204 58 238 76 238 102C238 130 212 142 190 136C166 130 154 106 162 88C166 80 170 75 176 72Z"/>
+              <path class="mask" d="M184 82C202 74 222 84 224 100C226 117 210 128 195 124C180 120 170 106 173 95C175 88 178 85 184 82Z"/>
+              <line class="leader" x1="226" y1="92" x2="258" y2="62"/>
+              <text class="art-t art-t--hot" x="262" y="60">MASK</text>
+              <text class="art-t" x="24" y="34">MRI SLICE</text>
+              <line class="scan" x1="40" y1="122" x2="280" y2="122"/>
+            </svg>
+          </div>
+          <div class="project-copy">
+            <p class="label">Research · Medical imaging</p>
+            <h3 class="project-title">NSEDAN</h3>
+            <p class="project-sub">Brain tumour segmentation research</p>
+            <p class="desc">Deep-learning research on brain tumour segmentation. The model outlines tumour regions in brain MRI scans pixel by pixel to support faster, more consistent analysis.</p>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>Deep learning</li><li>Semantic segmentation</li><li>Medical imaging</li></ul>
+          </div>
+        </article>
+        <article class="project reveal">
+          <div class="project-art">
+            <svg class="art" viewBox="0 0 320 240" aria-hidden="true" focusable="false">
+              <text class="art-t" x="34" y="56">VOICE</text>
+              <g data-wave="36,122,15,6.4,86"></g>
+              <path class="flow" d="M140 122H168M163 117l5 5-5 5"/>
+              <text class="art-t" x="182" y="56">INTENT</text>
+              <rect class="tline" x="182" y="76" width="104" height="6"/>
+              <rect class="tline" x="182" y="92" width="78" height="6"/>
+              <rect class="tline" x="182" y="108" width="92" height="6"/>
+              <rect class="act" x="182" y="140" width="104" height="32"/>
+              <rect class="act-sq" x="193" y="152" width="8" height="8"/>
+              <rect class="tline" x="210" y="153" width="62" height="6"/>
+              <text class="art-t art-t--hot" x="182" y="192">ACTION</text>
+            </svg>
+          </div>
+          <div class="project-copy">
+            <p class="label">Language AI · Voice</p>
+            <h3 class="project-title">LexiAct</h3>
+            <p class="project-sub">A voice-driven LLM assistant</p>
+            <p class="desc">Speak naturally and LexiAct transcribes the request, uses a large language model to work out the intent, then responds or takes the action.</p>
+            <ul class="tags" aria-label="Technologies"><li>Python</li><li>LLMs</li><li>Speech recognition</li><li>NLP</li><li>Voice interfaces</li></ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= EXPERIENCE ======================= -->
+<section class="section" id="experience" data-nav-group="experience" aria-labelledby="experience-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Experience</p></div>
+    <div class="sec-main">
+      <h2 class="h2 reveal" id="experience-title">Where I've worked</h2>
+      <ul class="xp reveal">
+        <li class="xp-item">
+          <div><span class="pill">Now</span></div>
+          <div class="xp-main">
+            <h3 class="xp-role">Founder</h3>
+            <p class="xp-org">BusBox Dravyn Private Limited · Karnataka, India</p>
+            <ul class="xp-points">
+              <li>Leading product, technology, operations and business strategy for a parcel mobility platform ahead of launch.</li>
+              <li>Building the platform across the mobile app, backend services and admin tools.</li>
+              <li>Planning the launch and the operating model behind it.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="xp-item">
+          <div><span class="pill pill--quiet">Previously</span></div>
+          <div class="xp-main">
+            <h3 class="xp-role">Analyst, Loss Prevention</h3>
+            <p class="xp-org">Data Analytics · Amazon</p>
+            <ul class="xp-points">
+              <li>Worked in loss prevention data analytics, using data to surface patterns of loss and anomalies and to support prevention decisions.</li>
+              <li>Gained a working understanding of how large operations run, where they leak value and how exceptions are handled.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= EDUCATION ======================= -->
+<section class="section" id="education" data-nav-group="experience" aria-labelledby="education-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Education</p></div>
+    <div class="sec-main">
+      <div class="credential reveal">
+        <div class="cred-main">
+          <p class="label">Postgraduate degree</p>
+          <h2 class="h2 cred-title" id="education-title">Master of Computer Applications</h2>
+          <p class="cred-spec">Specialisation in Artificial Intelligence and Machine Learning</p>
+          <dl class="cred-meta">
+            <div><dt>Institution</dt><dd>Mangalore Institute of Technology &amp; Engineering (MITE)</dd></div>
+            <div><dt>Location</dt><dd>Moodbidri, Karnataka</dd></div>
+            <div><dt>Applied work</dt><dd>Computer vision, medical image segmentation, and voice and language AI. <a class="link" href="#work">See projects</a></dd></div>
+          </dl>
+        </div>
+        <svg class="emblem" viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="em-o" cx="60" cy="60" r="56"/>
+          <circle class="em-i" cx="60" cy="60" r="40"/>
+          <rect class="em-d" x="36" y="36" width="48" height="48" transform="rotate(45 60 60)"/>
+          <rect class="em-sq" x="54" y="54" width="12" height="12"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CAPABILITIES ======================= -->
+<section class="section" id="capabilities" data-nav-group="experience" aria-labelledby="capabilities-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Capabilities</p></div>
+    <div class="sec-main">
+      <h2 class="h2 reveal" id="capabilities-title">What I work with</h2>
+      <div class="caps reveal">
+        <div class="cap">
+          <h3>Artificial intelligence</h3>
+          <ul><li>Machine learning</li><li>Deep learning</li><li>Computer vision</li><li>Object detection with YOLOv8</li><li>Image segmentation</li><li>LLM applications</li><li>Speech interfaces</li></ul>
+        </div>
+        <div class="cap">
+          <h3>Data and analytics</h3>
+          <ul><li>Data analysis</li><li>Pattern and anomaly detection</li><li>Loss prevention analytics</li><li>Root-cause analysis</li><li>Reporting for decisions</li></ul>
+        </div>
+        <div class="cap">
+          <h3>Engineering</h3>
+          <ul><li>Python</li><li>OpenCV</li><li>Flutter</li><li>NestJS and TypeORM</li><li>PostgreSQL</li><li>React and Vite</li><li>Mapbox</li></ul>
+        </div>
+        <div class="cap">
+          <h3>Venture building</h3>
+          <ul><li>Product strategy</li><li>Marketplace design</li><li>Pricing design</li><li>Operations planning</li><li>Customer experience</li><li>Business strategy</li></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= VISION ======================= -->
+<section class="section" id="vision" data-nav-group="vision" aria-labelledby="vision-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Vision</p></div>
+    <div class="sec-main">
+      <h2 class="vision-statement reveal" id="vision-title">Sending a parcel across India should be as easy as finding someone who's already going there.</h2>
+      <ol class="horizons reveal">
+        <li class="horizon">
+          <p class="label">Now</p>
+          <h3>Launch and prove it</h3>
+          <p>Open the network and make every handover dependable.</p>
+        </li>
+        <li class="horizon">
+          <p class="label">Next</p>
+          <h3>Connect India</h3>
+          <p>Grow the network until anywhere-to-anywhere delivery across India feels normal.</p>
+        </li>
+        <li class="horizon">
+          <p class="label">Later</p>
+          <h3>Become infrastructure</h3>
+          <p>Turn what the network learns about routes and demand into tools that make logistics smarter for operators, businesses and travellers.</p>
+        </li>
+      </ol>
+      <p class="vision-personal reveal">Beyond BusBox, I want to show that a technology company built in Karnataka can compete on product and engineering with anyone in the world.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CONTACT ======================= -->
+<section class="section section--contact" id="contact" data-nav-group="contact" aria-labelledby="contact-title">
+  <div class="wrap sec">
+    <div class="rail"><p class="rail-label"><span class="node" aria-hidden="true"></span>Contact</p></div>
+    <div class="sec-main">
+      <h2 class="statement reveal" id="contact-title">If you'd like to help build this network, let's talk.</h2>
+      <div class="audiences reveal">
+        <div class="audience">
+          <h3>Investors</h3>
+          <p>I'll walk you through the product, the market and the plan.</p>
+        </div>
+        <div class="audience">
+          <h3>Operators and partners</h3>
+          <p>Bus operators, logistics companies and businesses that move parcels along regular routes.</p>
+        </div>
+        <div class="audience">
+          <h3>Builders</h3>
+          <p>Engineers, designers and operators who want to talk about mobility in India.</p>
+        </div>
+      </div>
+      <div class="contact-card reveal">
+        <div class="contact-row">
+          <p class="label">Email</p>
+          <p class="contact-email" id="email-text">sunilpiligunda@gmail.com</p>
+          <div class="contact-actions">
+            <a class="btn btn--primary btn--sm ext" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=sunilpiligunda@gmail.com" target="_blank" rel="noopener">Write on Gmail</a>
+            <button class="btn btn--ghost btn--sm" id="copy-email" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5.5" y="5.5" width="8.5" height="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 2.5H2.5v8" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Copy email</button>
+          </div>
+        </div>
+        <div class="contact-row">
+          <p class="label">Phone</p>
+          <p class="contact-big" id="phone-text">+91 83105 45772</p>
+          <div class="contact-actions">
+            <a class="btn btn--ghost btn--sm" href="tel:+918310545772"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5.2 2.5 3 2.8c-.4.1-.7.4-.7.9.3 5.4 4.6 9.7 10 10 .5 0 .8-.3.9-.7l.3-2.2-2.8-1.2-1.4 1.4A8 8 0 0 1 5.3 7l1.4-1.4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>Call</a>
+            <button class="btn btn--ghost btn--sm" id="copy-phone" type="button"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5.5" y="5.5" width="8.5" height="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.5 2.5H2.5v8" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Copy number</button>
+          </div>
+        </div>
+        <div class="contact-row">
+          <p class="label">LinkedIn</p>
+          <p class="contact-value">linkedin.com/in/sunil-piligunda</p>
+          <div class="contact-actions">
+            <a class="btn btn--ghost btn--sm ext" href="https://www.linkedin.com/in/sunil-piligunda" target="_blank" rel="noopener">View profile</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <p class="label">Résumé</p>
+          <p class="contact-value">One page, PDF</p>
+          <div class="contact-actions">
+            <a class="btn btn--ghost btn--sm" href="Sunil-P-Resume.pdf" download data-resume><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v8m0 0L4.5 6.5M8 10l3.5-3.5M3 13.5h10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>Download résumé</a>
+          </div>
+        </div>
+        <div class="contact-row" id="social-row" hidden>
+          <p class="label">Elsewhere</p>
+          <ul class="social" id="social-list"></ul>
+        </div>
+        <div class="contact-row">
+          <p class="label">Based in</p>
+          <p class="contact-value">Karnataka, India · IST, UTC+5:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <a class="brand" href="#top">Sunil P<span class="sq" aria-hidden="true"></span></a>
+    <p class="footer-meta"><span>Founder, BusBox Dravyn Private Limited</span><span>© <span id="year">2026</span> Sunil P</span></p>
+    <p class="footer-links"><a class="link ext" href="https://www.linkedin.com/in/sunil-piligunda" target="_blank" rel="noopener">LinkedIn</a><a class="link" href="#top">Back to top</a></p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(() => {
+  'use strict';
+
+  /* ---- Personal details: edit these ---- */
+  const PROFILE = {
+    email: 'sunilpiligunda@gmail.com',
+    phone: '+918310545772',
+    links: [
+      // More profiles appear in the contact card, for example:
+      // { label: 'GitHub', href: 'https://github.com/your-handle' },
+    ],
+  };
+  const RESUME_FILE = 'Sunil-P-Resume.pdf';
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const reduced = () => motion.matches;
+  const SVGNS = 'http://www.w3.org/2000/svg';
+
+  document.documentElement.lang = 'en-IN';
+  const yearEl = $('#year');
+  if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+
+  /* ---- toast ---- */
+  const toastEl = $('#toast');
+  let toastTimer = 0;
+  function toast(msg) {
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastEl.classList.remove('is-on'), 2800);
+  }
+
+  /* ---- navigation state and progress ---- */
+  const nav = $('#nav');
+  const bar = $('.nav-progress span');
+  const nativeProgress = !!(window.CSS && CSS.supports && CSS.supports('animation-timeline: scroll()'));
+  let ticking = false;
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      ticking = false;
+      const y = window.scrollY || document.documentElement.scrollTop || 0;
+      nav.classList.toggle('is-scrolled', y > 8);
+      if (!nativeProgress && bar) {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, y / max) : 0) + ')';
+      }
+    });
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  const navLinks = $$('[data-nav]');
+  function setActive(group) {
+    navLinks.forEach((a) => {
+      if (group && a.dataset.nav === group) a.setAttribute('aria-current', 'true');
+      else a.removeAttribute('aria-current');
+    });
+  }
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) setActive(e.target.dataset.navGroup); });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    $$('[data-nav-group]').forEach((s) => io.observe(s));
+  }
+
+  /* ---- mobile menu ---- */
+  const menuBtn = $('#menu-btn');
+  const menu = $('#menu');
+  function openMenu() {
+    menu.hidden = false;
+    document.documentElement.classList.add('menu-open');
+    menuBtn.setAttribute('aria-expanded', 'true');
+    menuBtn.setAttribute('aria-label', 'Close menu');
+    requestAnimationFrame(() => menu.classList.add('is-open'));
+    const first = menu.querySelector('a');
+    if (first) first.focus({ preventScroll: true });
+  }
+  function closeMenu(returnFocus) {
+    menu.classList.remove('is-open');
+    menu.hidden = true;
+    document.documentElement.classList.remove('menu-open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    menuBtn.setAttribute('aria-label', 'Open menu');
+    if (returnFocus) menuBtn.focus();
+  }
+  menuBtn.addEventListener('click', () => (menu.hidden ? openMenu() : closeMenu(true)));
+  menu.addEventListener('click', (e) => { if (e.target.closest('a')) closeMenu(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) closeMenu(true); });
+  const wide = window.matchMedia('(min-width: 1080px)');
+  const onWide = () => { if (wide.matches && !menu.hidden) closeMenu(false); };
+  if (wide.addEventListener) wide.addEventListener('change', onWide);
+
+  /* ---- portrait: fall back to the monogram if the photo can't load ---- */
+  const portrait = $('#portrait');
+  const pImg = $('.portrait-img');
+  if (portrait && pImg) {
+    const noPhoto = () => portrait.classList.add('no-photo');
+    if (pImg.complete && !pImg.naturalWidth) noPhoto();
+    pImg.addEventListener('error', noPhoto);
+  }
+
+  /* ---- links elsewhere ---- */
+  const socialRow = $('#social-row');
+  const socialList = $('#social-list');
+  const extra = (PROFILE.links || []).filter((l) => l && l.label && l.href);
+  if (extra.length && socialRow && socialList) {
+    extra.forEach((l) => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.className = 'link ext';
+      a.href = l.href;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = l.label;
+      li.appendChild(a);
+      socialList.appendChild(li);
+    });
+    socialRow.hidden = false;
+  }
+
+  /* ---- email ---- */
+  const emailText = $('#email-text');
+  const copyBtn = $('#copy-email');
+  if (emailText) emailText.textContent = PROFILE.email;
+  function selectNode(node) {
+    try {
+      const range = document.createRange();
+      range.selectNodeContents(node);
+      const sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    } catch (_) { /* selection unavailable */ }
+  }
+  function copyOnClick(btn, value, node, done) {
+    btn.addEventListener('click', () => {
+      const fallback = () => { selectNode(node); toast('Selected. Press Ctrl+C or Cmd+C to copy it.'); };
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(value).then(() => toast(done), fallback);
+        } else {
+          fallback();
+        }
+      } catch (_) { fallback(); }
+    });
+  }
+  if (copyBtn && emailText) copyOnClick(copyBtn, PROFILE.email, emailText, 'Email address copied');
+  const phoneText = $('#phone-text');
+  const copyPhone = $('#copy-phone');
+  if (copyPhone && phoneText) copyOnClick(copyPhone, PROFILE.phone, phoneText, 'Phone number copied');
+
+  /* ---- résumé: a plain link on a normal host, the viewer's save prompt inside Claude ---- */
+  const resumeLinks = $$('[data-resume]');
+  const framed = !!(window.claude && typeof window.claude.use === 'function');
+  if (framed && resumeLinks.length) {
+    const ready = Promise.resolve().then(() => window.claude.use('downloads')).catch(() => null);
+    ready.then((dl) => { if (!dl) resumeLinks.forEach((a) => { a.hidden = true; }); });
+    resumeLinks.forEach((a) => a.addEventListener('click', async (ev) => {
+      ev.preventDefault();
+      const dl = await ready;
+      if (!dl) { toast('The résumé download isn’t available in this view.'); return; }
+      try {
+        const res = await fetch(RESUME_FILE);
+        if (!res.ok) throw { code: 'fetch_failed' };
+        const blob = await res.blob();
+        await dl.save({ filename: 'Sunil-P-Resume.pdf', data: blob });
+      } catch (err) {
+        const code = err && err.code;
+        if (code === 'declined') return;
+        if (code === 'rate_limited') { toast('A download prompt is already open.'); return; }
+        toast('The résumé couldn’t be downloaded here. Please try again.');
+      }
+    }));
+  }
+
+  /* ---- route matcher ---- */
+  const matcher = $('#matcher');
+  if (matcher) {
+    const hit = $('#route-hit');
+    const parcel = $('.parcel', matcher);
+    const carrier = $('.carrier', matcher);
+    const status = $('#map-status');
+    const toggle = $('#matcher-toggle');
+    const stepBtns = $$('.step', matcher);
+    const PICK = { x: 121, y: 166 };
+    const WAIT = { x: 141, y: 146 };
+    const TEXT = {
+      1: 'Parcel listed from a pickup point to a drop point.',
+      2: 'Three journeys checked. One compatible match.',
+      3: 'Handed over to a bus operator heading the same way.',
+      4: 'On its way along the matched route.',
+    };
+    const DONE = 'Delivered. The recipient confirms with an OTP.';
+    const HOLD = { 1: 2600, 2: 3400, 3: 2200, 4: 2600 };
+    const TRAVEL = 2800;
+    let step = 2;
+    let where = 'wait';
+    let playing = !reduced();
+    let inView = false;
+    let travelling = false;
+    let timer = 0;
+    let raf = 0;
+
+    const place = (el, p) => { el.style.transform = 'translate(' + p.x.toFixed(2) + 'px,' + p.y.toFixed(2) + 'px)'; };
+    const pending = new Map();
+    function jump(el, p) {
+      clearTimeout(pending.get(el));
+      el.style.transition = 'opacity .25s';
+      el.style.opacity = '0';
+      pending.set(el, setTimeout(() => {
+        pending.delete(el);
+        el.style.transition = 'none';
+        place(el, p);
+        void el.getBoundingClientRect();
+        el.style.transition = '';
+        el.style.opacity = '';
+      }, 260));
+    }
+    function schedule() {
+      clearTimeout(timer);
+      if (!playing || !inView || travelling || document.hidden) return;
+      timer = setTimeout(() => setStep(step % 4 + 1), HOLD[step]);
+    }
+    function travel() {
+      const L = hit.getTotalLength();
+      const end = hit.getPointAtLength(L);
+      const finish = () => {
+        travelling = false;
+        parcel.style.transition = '';
+        carrier.style.transition = '';
+        place(carrier, end);
+        place(parcel, end);
+        where = 'end';
+        matcher.classList.add('s-delivered');
+        status.textContent = DONE;
+        schedule();
+      };
+      if (reduced()) { finish(); return; }
+      travelling = true;
+      parcel.style.transition = 'none';
+      carrier.style.transition = 'opacity .4s';
+      place(parcel, PICK);
+      place(carrier, PICK);
+      where = 'moving';
+      const t0 = performance.now();
+      const frame = (now) => {
+        const k = Math.min(1, (now - t0) / TRAVEL);
+        const e = k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+        const p = hit.getPointAtLength(e * L);
+        place(carrier, p);
+        place(parcel, p);
+        if (k < 1) raf = requestAnimationFrame(frame);
+        else finish();
+      };
+      raf = requestAnimationFrame(frame);
+    }
+    function setStep(n) {
+      cancelAnimationFrame(raf);
+      clearTimeout(timer);
+      travelling = false;
+      step = n;
+      matcher.dataset.step = String(n);
+      matcher.classList.toggle('s-matched', n >= 2);
+      matcher.classList.toggle('s-handed', n >= 3);
+      matcher.classList.remove('s-delivered');
+      stepBtns.forEach((b) => {
+        if (Number(b.dataset.go) === n) b.setAttribute('aria-current', 'step');
+        else b.removeAttribute('aria-current');
+      });
+      status.textContent = TEXT[n];
+      if (n <= 2) {
+        if (where !== 'wait') jump(parcel, WAIT);
+        if (where === 'end' || where === 'moving') jump(carrier, PICK);
+        where = 'wait';
+        schedule();
+      } else if (n === 3) {
+        if (where === 'end' || where === 'moving') { jump(parcel, PICK); jump(carrier, PICK); }
+        else { place(carrier, PICK); place(parcel, PICK); }
+        where = 'pick';
+        schedule();
+      } else {
+        let delay = 0;
+        if (where === 'wait') { place(parcel, PICK); delay = 650; }
+        else if (where === 'end' || where === 'moving') { jump(parcel, PICK); jump(carrier, PICK); delay = 320; }
+        where = 'pick';
+        if (reduced()) delay = 0;
+        if (delay) setTimeout(() => { if (step === 4) travel(); }, delay);
+        else travel();
+      }
+    }
+    function setPlaying(v) {
+      playing = v;
+      toggle.textContent = v ? 'Pause' : 'Play';
+      if (v) schedule(); else clearTimeout(timer);
+    }
+
+    place(parcel, WAIT);
+    place(carrier, PICK);
+    stepBtns.forEach((b) => b.addEventListener('click', () => {
+      if (!reduced()) setPlaying(false);
+      setStep(Number(b.dataset.go));
+    }));
+    if (!reduced()) {
+      toggle.hidden = false;
+      toggle.addEventListener('click', () => setPlaying(!playing));
+    }
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver((entries) => {
+        entries.forEach((e) => { inView = e.isIntersecting; if (inView) schedule(); else clearTimeout(timer); });
+      }, { threshold: 0.35 }).observe(matcher);
+    }
+    document.addEventListener('visibilitychange', () => { if (document.hidden) clearTimeout(timer); else schedule(); });
+  }
+
+  /* ---- pricing shape ---- */
+  const total = (d) => 0.25 + 0.75 * Math.sqrt(d);
+  const curveTotal = $('#curve-total');
+  const curveRate = $('#curve-rate');
+  if (curveTotal && curveRate) {
+    const A = { x: 30, y: 16, w: 160, h: 92 };
+    const B = { x: 250, y: 16, w: 160, h: 92 };
+    const a = [];
+    const b = [];
+    const rMax = total(0.1) / 0.1;
+    for (let i = 0; i <= 48; i++) {
+      const d = 0.02 + (i / 48) * 0.98;
+      a.push([A.x + d * A.w, A.y + A.h - total(d) * A.h]);
+      const d2 = 0.1 + (i / 48) * 0.9;
+      b.push([B.x + ((d2 - 0.1) / 0.9) * B.w, B.y + B.h - (total(d2) / d2 / rMax) * B.h]);
+    }
+    const toPath = (pts) => 'M' + pts.map((p) => p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join('L');
+    curveTotal.setAttribute('d', toPath(a));
+    curveRate.setAttribute('d', toPath(b));
+  }
+
+  /* ---- project illustrations ---- */
+  function rng(seed) {
+    let s = seed >>> 0;
+    return () => { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; };
+  }
+  $$('[data-mosaic]').forEach((g, gi) => {
+    const [x, y, w, h, cols, rows] = g.dataset.mosaic.split(',').map(Number);
+    const r = rng(11 + gi * 17);
+    const cw = w / cols;
+    const ch = h / rows;
+    for (let i = 0; i < cols; i++) {
+      for (let j = 0; j < rows; j++) {
+        const el = document.createElementNS(SVGNS, 'rect');
+        el.setAttribute('x', (x + i * cw + 1).toFixed(1));
+        el.setAttribute('y', (y + j * ch + 1).toFixed(1));
+        el.setAttribute('width', (cw - 2).toFixed(1));
+        el.setAttribute('height', (ch - 2).toFixed(1));
+        el.style.opacity = (0.1 + r() * 0.38).toFixed(2);
+        g.appendChild(el);
+      }
+    }
+  });
+  $$('.project').forEach((p) => {
+    const cells = $$('[data-mosaic] rect', p);
+    if (!cells.length) return;
+    const r = rng(97);
+    let iv = 0;
+    p.addEventListener('mouseenter', () => {
+      if (reduced()) return;
+      clearInterval(iv);
+      iv = setInterval(() => cells.forEach((c) => { c.style.opacity = (0.1 + r() * 0.38).toFixed(2); }), 280);
+    });
+    p.addEventListener('mouseleave', () => clearInterval(iv));
+  });
+  $$('[data-wave]').forEach((g) => {
+    const [x0, cy, n, gap, maxH] = g.dataset.wave.split(',').map(Number);
+    const r = rng(42);
+    for (let i = 0; i < n; i++) {
+      const h = 10 + Math.abs(Math.sin(i * 0.62 + 0.4)) * maxH * (0.5 + r() * 0.5);
+      const x = x0 + i * gap;
+      const line = document.createElementNS(SVGNS, 'line');
+      line.setAttribute('x1', x.toFixed(1));
+      line.setAttribute('x2', x.toFixed(1));
+      line.setAttribute('y1', (cy - h / 2).toFixed(1));
+      line.setAttribute('y2', (cy + h / 2).toFixed(1));
+      line.setAttribute('class', 'bar' + (i % 5 === 2 ? ' hot' : ''));
+      line.style.animationDelay = (-(i * 0.11)).toFixed(2) + 's';
+      g.appendChild(line);
+    }
+  });
+})();
+</script>
+</body>
+</html>
